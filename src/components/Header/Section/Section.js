@@ -37,5 +37,5 @@ const Section = () => {
         </div>
     );
 };
-//<h3>product:{primes.length}</h3>
+/*array map & Cart added */
 export default Section;

@@ -14,5 +14,5 @@ const Header = () => {
         </div>
     );
 };
-
+/* added header imformation */
 export default Header;

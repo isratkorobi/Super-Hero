@@ -3,7 +3,7 @@ import './Prime.css'
 
 const Prime = (props) => {
     console.log(props);
-    const {name,img,age,salary,born,country,nationality} = props.prime;
+    const {name,img,age,salary,born,country,nationality} = props.prime;//distrucuring prime
     return (
         <div className="row">
             <div className="col">
@@ -25,5 +25,5 @@ const Prime = (props) => {
         
     );
 };
-
+/* added prime card content */
 export default Prime;

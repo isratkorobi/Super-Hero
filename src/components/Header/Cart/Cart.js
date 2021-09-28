@@ -22,5 +22,5 @@ const Cart = (props) => {
 
     );
 };
-
+/* added cart content */
 export default Cart;
