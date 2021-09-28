@@ -10,13 +10,22 @@ const Cart = (props) => {
     total = total + prime.salary};  
     return (
         <div>
-            <h2>total states:{props.cart.length}</h2>
-            <br/>
-            <h1>Name:</h1>
-            <br/>
-            <p>Total: {total}</p>
+            <div className="card">
+                <div className="card-body">
+                <h5 className="card-title">Total Country:  {props.cart.length}</h5>
+                 <p className="card-text">Name: </p>
+                 <p className="card-text">Total: {total}</p>
+                 <button href="#" className="btn btn-secondary"><span><i className="fas fa-user"></i></span> Added Minister</button>
+  </div>
+</div>
         </div>
 
     );
 };
+/*     
+            <br/>
+            <h1>Name:</h1>
+            <br/>
+            <p>Total: {total}</p>*/
+            //  style="width: 18rem;"
 export default Cart;
