@@ -14,7 +14,7 @@ const Cart = (props) => {
                 <div className="card-body">
                 <h5 className="card-title">Total Country:  {props.cart.length}</h5>
                  <p className="card-text">Name: </p>
-                 <p className="card-text">Total: {total}</p>
+                 <p className="card-text">Total Salary: {total}</p>
                  <button href="#" className="btn btn-secondary"><span><i className="fas fa-user"></i></span> Added Minister</button>
   </div>
 </div>
@@ -22,10 +22,5 @@ const Cart = (props) => {
 
     );
 };
-/*     
-            <br/>
-            <h1>Name:</h1>
-            <br/>
-            <p>Total: {total}</p>*/
-            //  style="width: 18rem;"
+
 export default Cart;
